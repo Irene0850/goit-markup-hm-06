@@ -555,7 +555,7 @@ address {
 
   .mobile-menu {
     position: fixed;
-    z-index: 999;
+    z-index: 200;
     top: 0;
     left: 0;
     height: 100%;
@@ -565,11 +565,11 @@ address {
     padding-top: 72px;
   }
 
-  /* .mobile-menu.is-open {
+  .mobile-menu.is-open {
     visibility: visible;
     pointer-events: auto;
     transform: translateX(0);
-  } */
+  }
 
   .mobile-menu-close {
     display: flex;
